@@ -1,0 +1,15 @@
+.hotel-card img {
+    max-width: 100%;
+}
+.hotel-card {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.15), 0 2px 4px -2px rgb(0 0 0 / .15);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.content-card {
+    padding: 15px;
+}
+.title-hotel {
+    font-weight: 600;
+    font-size: 18px;
+}

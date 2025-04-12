@@ -1,0 +1,95 @@
+{
+    "hotels": [
+      {
+        "id": 1,
+        "name": "Hôtel Belle Vue",
+        "location": "Paris, France",
+        "pricePerNight": 120,
+        "rating": 4.6,
+        "image": "https://picsum.photos/300/200?random=1",
+        "available": true
+      },
+      {
+        "id": 2,
+        "name": "Riviera Palace",
+        "location": "Nice, France",
+        "pricePerNight": 95,
+        "rating": 4.2,
+        "image": "https://picsum.photos/300/200?random=2",
+        "available": true
+      },
+      {
+        "id": 3,
+        "name": "Hotel La Rambla",
+        "location": "Barcelone, Espagne",
+        "pricePerNight": 110,
+        "rating": 4.4,
+        "image": "https://picsum.photos/300/200?random=3",
+        "available": false
+      },
+      {
+        "id": 4,
+        "name": "Grand Hotel Milano",
+        "location": "Milan, Italie",
+        "pricePerNight": 140,
+        "rating": 4.8,
+        "image": "https://picsum.photos/300/200?random=4",
+        "available": true
+      },
+      {
+        "id": 5,
+        "name": "The London Lodge",
+        "location": "Londres, Royaume-Uni",
+        "pricePerNight": 130,
+        "rating": 4.3,
+        "image": "https://picsum.photos/300/200?random=5",
+        "available": true
+      },
+      {
+        "id": 6,
+        "name": "Alpenhütte Resort",
+        "location": "Innsbruck, Autriche",
+        "pricePerNight": 100,
+        "rating": 4.1,
+        "image": "https://picsum.photos/300/200?random=6",
+        "available": false
+      },
+      {
+        "id": 7,
+        "name": "Ocean View Hotel",
+        "location": "Lisbonne, Portugal",
+        "pricePerNight": 85,
+        "rating": 4.0,
+        "image": "https://picsum.photos/300/200?random=7",
+        "available": true
+      },
+      {
+        "id": 8,
+        "name": "Scandic Palace",
+        "location": "Copenhague, Danemark",
+        "pricePerNight": 115,
+        "rating": 4.7,
+        "image": "https://picsum.photos/300/200?random=8",
+        "available": true
+      },
+      {
+        "id": 9,
+        "name": "Hotel Amstel",
+        "location": "Amsterdam, Pays-Bas",
+        "pricePerNight": 105,
+        "rating": 4.5,
+        "image": "https://picsum.photos/300/200?random=9",
+        "available": true
+      },
+      {
+        "id": 10,
+        "name": "City Stay Zurich",
+        "location": "Zurich, Suisse",
+        "pricePerNight": 150,
+        "rating": 4.9,
+        "image": "https://picsum.photos/300/200?random=10",
+        "available": false
+      }
+    ]
+  }
+  

@@ -1,0 +1,32 @@
+menu ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+menu ul li a {
+    transition: 0.3s;
+    text-decoration: none;
+    color: var(--dark-blue);
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+}
+menu ul li a:hover { 
+    color: var(--sky-blue); 
+}
+menu ul li a::after {
+    transition: 0.3s;
+    content: ""; 
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    background-color: var(--sky-blue);
+}
+menu ul li a:hover::after {
+    width: 100%;
+}

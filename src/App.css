@@ -1,0 +1,35 @@
+
+:root {
+  --primary-blue: #2563EB;
+  --dark-blue: #0A001B;
+  --sky-blue: #3db0e6;
+  --grey: #9CA3AF;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter';
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 1200px;
+  max-width: 90%;
+  margin: auto;
+}
+p {
+  margin: 0;
+  margin-bottom: 15px;
+}
+.nom-site {
+  margin-bottom: 0;
+}
+.nom-site a {
+  color: var(--primary-blue);
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 600;
+}

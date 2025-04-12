@@ -1,0 +1,13 @@
+header {
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 2px 3px  rgb(231, 231, 231);
+    margin-bottom: 50px;
+}
+
+.inner-header {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
