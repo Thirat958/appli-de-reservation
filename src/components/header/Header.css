@@ -4,6 +4,8 @@ header {
     top: 0;
     box-shadow: 0px 2px 3px  rgb(231, 231, 231);
     margin-bottom: 50px;
+    background: white;
+    z-index: 2000;
 }
 
 .inner-header {
