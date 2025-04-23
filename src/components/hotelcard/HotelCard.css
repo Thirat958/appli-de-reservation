@@ -13,3 +13,9 @@
     font-weight: 600;
     font-size: 18px;
 }
+.hotel-card img {
+    aspect-ratio: 16/9; 
+    object-fit: cover;
+    max-height: 250px;
+    width: 100%;
+}

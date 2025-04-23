@@ -1,0 +1,41 @@
+.single-hotel {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+
+.container-hotel {
+    width: 50%;
+}
+.sidebar-hotel {
+    width: 50%;
+}
+.price-night {
+    font-size: 20px;
+    font-weight: 600;
+}
+.description {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: normal;
+}
+.single-hotel img {
+    border-radius: 15px;
+}
+.not-available {
+    background: rgba(255, 0, 0, 0.418);
+    text-align: center;
+    border: 2px solid red;
+    padding: 40px;
+    border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+    .single-hotel {
+        flex-direction: column;
+    }
+    .container-hotel,
+    .sidebar-hotel {
+        width: 100%;
+    }
+}

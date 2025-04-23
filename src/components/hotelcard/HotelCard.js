@@ -3,6 +3,14 @@ import './HotelCard.css';
 import { Link } from 'react-router';
 import PrimaryButton from '../primary-button/PrimaryButton';
 export default function HotelCard({ hotel }) {
+  const slugify = (str) =>
+    str
+      .toLowerCase()
+      .normalize('NFD') // Enlève les accents
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-z0-9]+/g, '-') // Remplace les non-alphanum par des tirets
+      .replace(/^-+|-+$/g, ''); // Trim des tirets au début/fin
+  
   return (
     <div className='hotel-card'>
         <img src={hotel.image} alt={hotel.name} />
@@ -11,7 +19,7 @@ export default function HotelCard({ hotel }) {
             <p className="location-hotel">{hotel.location}</p>
             <p className="price-hotel">Prix par nuit : {hotel.pricePerNight}€</p>
             <p className="note-hotel">Note : {hotel.rating}⭐</p> 
-            <Link to={`/hotel/${hotel.id}`}>
+            <Link to={`/hotel/${slugify(hotel.name)}`}>
               <PrimaryButton>
                 Voir l'hôtel
               </PrimaryButton>

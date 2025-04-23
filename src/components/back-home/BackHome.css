@@ -1,0 +1,18 @@
+.back-home {
+    margin-bottom: 50px;
+    display: flex;
+    color: var(--dark-blue);
+    text-decoration: none;
+    align-items: center;
+    gap: 15px;
+}
+.back-home i {
+    background: var(--sky-blue);
+    border-radius: 50%;
+    color: white;
+    height: 40px;
+    width: 40px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}

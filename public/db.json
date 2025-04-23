@@ -1,95 +1,104 @@
 {
-    "hotels": [
-      {
-        "id": 1,
-        "name": "Hôtel Belle Vue",
-        "location": "Paris, France",
-        "pricePerNight": 120,
-        "rating": 4.6,
-        "image": "https://picsum.photos/300/200?random=1",
-        "available": true
-      },
-      {
-        "id": 2,
-        "name": "Riviera Palace",
-        "location": "Nice, France",
-        "pricePerNight": 95,
-        "rating": 4.2,
-        "image": "https://picsum.photos/300/200?random=2",
-        "available": true
-      },
-      {
-        "id": 3,
-        "name": "Hotel La Rambla",
-        "location": "Barcelone, Espagne",
-        "pricePerNight": 110,
-        "rating": 4.4,
-        "image": "https://picsum.photos/300/200?random=3",
-        "available": false
-      },
-      {
-        "id": 4,
-        "name": "Grand Hotel Milano",
-        "location": "Milan, Italie",
-        "pricePerNight": 140,
-        "rating": 4.8,
-        "image": "https://picsum.photos/300/200?random=4",
-        "available": true
-      },
-      {
-        "id": 5,
-        "name": "The London Lodge",
-        "location": "Londres, Royaume-Uni",
-        "pricePerNight": 130,
-        "rating": 4.3,
-        "image": "https://picsum.photos/300/200?random=5",
-        "available": true
-      },
-      {
-        "id": 6,
-        "name": "Alpenhütte Resort",
-        "location": "Innsbruck, Autriche",
-        "pricePerNight": 100,
-        "rating": 4.1,
-        "image": "https://picsum.photos/300/200?random=6",
-        "available": false
-      },
-      {
-        "id": 7,
-        "name": "Ocean View Hotel",
-        "location": "Lisbonne, Portugal",
-        "pricePerNight": 85,
-        "rating": 4.0,
-        "image": "https://picsum.photos/300/200?random=7",
-        "available": true
-      },
-      {
-        "id": 8,
-        "name": "Scandic Palace",
-        "location": "Copenhague, Danemark",
-        "pricePerNight": 115,
-        "rating": 4.7,
-        "image": "https://picsum.photos/300/200?random=8",
-        "available": true
-      },
-      {
-        "id": 9,
-        "name": "Hotel Amstel",
-        "location": "Amsterdam, Pays-Bas",
-        "pricePerNight": 105,
-        "rating": 4.5,
-        "image": "https://picsum.photos/300/200?random=9",
-        "available": true
-      },
-      {
-        "id": 10,
-        "name": "City Stay Zurich",
-        "location": "Zurich, Suisse",
-        "pricePerNight": 150,
-        "rating": 4.9,
-        "image": "https://picsum.photos/300/200?random=10",
-        "available": false
-      }
-    ]
-  }
-  
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Hôtel Belle Vue",
+      "location": "Paris, France",
+      "pricePerNight": 120,
+      "rating": 4.6,
+      "image": "https://images.pexels.com/photos/10273208/pexels-photo-10273208.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Vue imprenable sur la Tour Eiffel, chambres modernes et petit-déjeuner parisien inclus.",
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Riviera Palace",
+      "location": "Nice, France",
+      "pricePerNight": 95,
+      "rating": 4.2,
+      "image": "https://images.pexels.com/photos/31609726/pexels-photo-31609726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "À deux pas de la plage, parfait pour un séjour détente sur la Côte d’Azur.",
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "Hotel La Rambla",
+      "location": "Barcelone, Espagne",
+      "pricePerNight": 110,
+      "rating": 4.4,
+      "image": "https://images.pexels.com/photos/6151559/pexels-photo-6151559.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Ambiance catalane et rooftop avec vue sur la ville. Idéal pour les amateurs de tapas.",
+      "available": false
+    },
+    {
+      "id": 4,
+      "name": "Grand Hotel Milano",
+      "location": "Milan, Italie",
+      "pricePerNight": 140,
+      "rating": 4.8,
+      "image": "https://images.pexels.com/photos/31592160/pexels-photo-31592160/free-photo-of-delicieuse-pizza-italienne-aux-olives-et-aux-oignons.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Luxe à l’italienne avec spa privé et accès direct aux boutiques de créateurs.",
+      "available": true
+    },
+    {
+      "id": 5,
+      "name": "The London Lodge",
+      "location": "Londres, Royaume-Uni",
+      "pricePerNight": 130,
+      "rating": 4.3,
+      "image": "https://images.pexels.com/photos/30898458/pexels-photo-30898458/free-photo-of-chambre-d-hotel-de-luxe-moderne-a-londres.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Un cocon cosy au cœur de Londres, à quelques pas de Hyde Park et Oxford Street.",
+      "available": true
+    },
+    {
+      "id": 6,
+      "name": "Alpenhütte Resort",
+      "location": "Innsbruck, Autriche",
+      "pricePerNight": 100,
+      "rating": 4.1,
+      "image": "https://images.pexels.com/photos/904092/pexels-photo-904092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Chalet de montagne avec vue sur les Alpes, idéal pour le ski ou les randos.",
+      "available": false
+    },
+    {
+      "id": 7,
+      "name": "Ocean View Hotel",
+      "location": "Lisbonne, Portugal",
+      "pricePerNight": 85,
+      "rating": 4.0,
+      "image": "https://images.pexels.com/photos/31597682/pexels-photo-31597682/free-photo-of-toits-de-lisbonne-avec-vue-sur-les-clochers-des-eglises.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Hôtel lumineux avec terrasse surplombant l’océan, parfait pour les couchers de soleil.",
+      "available": true
+    },
+    {
+      "id": 8,
+      "name": "Scandic Palace",
+      "location": "Copenhague, Danemark",
+      "pricePerNight": 115,
+      "rating": 4.7,
+      "image": "https://images.pexels.com/photos/416024/pexels-photo-416024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Design nordique chic, buffet bio et sauna pour une expérience danoise authentique.",
+      "available": true
+    },
+    {
+      "id": 9,
+      "name": "Hotel Amstel",
+      "location": "Amsterdam, Pays-Bas",
+      "pricePerNight": 105,
+      "rating": 4.5,
+      "image": "https://images.pexels.com/photos/1329510/pexels-photo-1329510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "available": true,
+      "description": "Situé au bord du canal, avec location de vélos et coffee shop intégré."
+    },
+    {
+      "id": 10,
+      "name": "City Stay Zurich",
+      "location": "Zurich, Suisse",
+      "pricePerNight": 150,
+      "rating": 4.9,
+      "image": "https://images.pexels.com/photos/773471/pexels-photo-773471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Élégance et calme suisse, chambres avec vue sur le lac et petit-déj au lit.",
+      "available": false
+    }
+  ]
+}
